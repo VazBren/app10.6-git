@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor2</GalleryName>
+            <GallerySuffix>2</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chrome/</ImageTemplate>
+            <ImageTemplateName>Chrome</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#000000</TemplateColor>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>chrome</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/adm7.jpg</url>
+                <title>adm7</title>
+                <filesize>9066</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/adm8.jpg</url>
+                <title>adm8</title>
+                <filesize>7040</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/adm9.jpg</url>
+                <title>adm9</title>
+                <filesize>98018</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/bio10.jpg</url>
+                <title>bio10</title>
+                <filesize>10614</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/bio11.jpg</url>
+                <title>bio11</title>
+                <filesize>10888</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/bio12.jpg</url>
+                <title>bio12</title>
+                <filesize>73121</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/bio13.jpg</url>
+                <title>bio13</title>
+                <filesize>6752</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/gastro8.jpg</url>
+                <title>gastro8</title>
+                <filesize>15888</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/gastro9.jpg</url>
+                <title>gastro9</title>
+                <filesize>67672</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/gastro10.jpg</url>
+                <title>gastro10</title>
+                <filesize>71087</filesize>
+            </Image>
+            <Image>
+                <url>E:/brenvaz/DAM/Tercer Parcial/Aplicaciones/APP10/res/android/gastro11.jpg</url>
+                <title>gastro11</title>
+                <filesize>5825754</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,570 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion Final</title>
+
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head> 
+ 
+ 
+ <body onLoad="MM_preloadImages('imagenes/gamas1.jpg','imagenes/celulares_flexibles.jpg','imagenes/7.jpg','imagenes/att.jpg','res/android/Batalla2s.jpg','res/android/zaragoza2.jpg','res/android/felipe2.jpg','res/android/por2.jpg','res/android/gastro5.jpg','res/android/adm7.jpg','res/android/bio2 .jpg','res/android/bio6.jpg','res/android/bio7.jpg','res/android/gastro9.jpg','res/android/adm9.jpg','res/android/bio12.jpg')">
+     
+ <div data-role="page" id="Principal" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>CARRERAS UNIVERSITARIAS</h1>
+      </div>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/adm7.jpg" alt="adm7" title="adm7" id="wows2_0"/></li>
+		<li><img src="data2/images/adm8.jpg" alt="adm8" title="adm8" id="wows2_1"/></li>
+		<li><img src="data2/images/adm9.jpg" alt="adm9" title="adm9" id="wows2_2"/></li>
+		<li><img src="data2/images/bio10.jpg" alt="bio10" title="bio10" id="wows2_3"/></li>
+		<li><img src="data2/images/bio11.jpg" alt="bio11" title="bio11" id="wows2_4"/></li>
+		<li><img src="data2/images/bio12.jpg" alt="bio12" title="bio12" id="wows2_5"/></li>
+		<li><img src="data2/images/bio13.jpg" alt="bio13" title="bio13" id="wows2_6"/></li>
+		<li><img src="data2/images/gastro8.jpg" alt="gastro8" title="gastro8" id="wows2_7"/></li>
+		<li><img src="data2/images/gastro9.jpg" alt="gastro9" title="gastro9" id="wows2_8"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/gastro10.jpg" alt="jquery slideshow" title="gastro10" id="wows2_9"/></a></li>
+		<li><img src="data2/images/gastro11.jpg" alt="gastro11" title="gastro11" id="wows2_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="adm7"><span><img src="data2/tooltips/adm7.jpg" alt="adm7"/>1</span></a>
+		<a href="#" title="adm8"><span><img src="data2/tooltips/adm8.jpg" alt="adm8"/>2</span></a>
+		<a href="#" title="adm9"><span><img src="data2/tooltips/adm9.jpg" alt="adm9"/>3</span></a>
+		<a href="#" title="bio10"><span><img src="data2/tooltips/bio10.jpg" alt="bio10"/>4</span></a>
+		<a href="#" title="bio11"><span><img src="data2/tooltips/bio11.jpg" alt="bio11"/>5</span></a>
+		<a href="#" title="bio12"><span><img src="data2/tooltips/bio12.jpg" alt="bio12"/>6</span></a>
+		<a href="#" title="bio13"><span><img src="data2/tooltips/bio13.jpg" alt="bio13"/>7</span></a>
+		<a href="#" title="gastro8"><span><img src="data2/tooltips/gastro8.jpg" alt="gastro8"/>8</span></a>
+		<a href="#" title="gastro9"><span><img src="data2/tooltips/gastro9.jpg" alt="gastro9"/>9</span></a>
+		<a href="#" title="gastro10"><span><img src="data2/tooltips/gastro10.jpg" alt="gastro10"/>10</span></a>
+		<a href="#" title="gastro11"><span><img src="data2/tooltips/gastro11.jpg" alt="gastro11"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  
+       <div>
+          
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Licenciatura en Gastronomía</h2>
+              <p>Informacioón sobre la Carrera</p>
+          </a>
+          </li>
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Licenciatura en Administración de Empresas</h2>
+               <p>Infromación sobre la Carrera</p>
+             </a>
+          </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Ingeniería Bioquimica</h2>
+               <p>iInformación sobre la Carrera</p>
+              </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Para mas información</h2>
+               <p>consulta:</p>
+             </a>
+           </li>
+       </ul>
+ 
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/adm1.jpg" alt="adm1" title="adm1" id="wows1_0"/></li>
+		<li><img src="data1/images/adm2.jpg" alt="adm2" title="adm2" id="wows1_1"/></li>
+		<li><img src="data1/images/bio5.jpg" alt="bio5" title="bio5" id="wows1_2"/></li>
+		<li><img src="data1/images/bio6.jpg" alt="bio6" title="bio6" id="wows1_3"/></li>
+		<li><img src="data1/images/bio7.jpg" alt="bio7" title="bio7" id="wows1_4"/></li>
+		<li><img src="data1/images/adm4.jpg" alt="adm4" title="adm4" id="wows1_5"/></li>
+		<li><img src="data1/images/adm6.jpg" alt="adm6" title="adm6" id="wows1_6"/></li>
+		<li><img src="data1/images/gastro4.jpg" alt="gastro4" title="gastro4" id="wows1_7"/></li>
+		<li><img src="data1/images/gastro5.jpg" alt="gastro5" title="gastro5" id="wows1_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/gastro6.jpg" alt="jquery slider" title="gastro6" id="wows1_9"/></a></li>
+		<li><img src="data1/images/gastro7.jpg" alt="gastro7" title="gastro7" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="adm1"><span><img src="data1/tooltips/adm1.jpg" alt="adm1"/>1</span></a>
+		<a href="#" title="adm2"><span><img src="data1/tooltips/adm2.jpg" alt="adm2"/>2</span></a>
+		<a href="#" title="bio5"><span><img src="data1/tooltips/bio5.jpg" alt="bio5"/>3</span></a>
+		<a href="#" title="bio6"><span><img src="data1/tooltips/bio6.jpg" alt="bio6"/>4</span></a>
+		<a href="#" title="bio7"><span><img src="data1/tooltips/bio7.jpg" alt="bio7"/>5</span></a>
+		<a href="#" title="adm4"><span><img src="data1/tooltips/adm4.jpg" alt="adm4"/>6</span></a>
+		<a href="#" title="adm6"><span><img src="data1/tooltips/adm6.jpg" alt="adm6"/>7</span></a>
+		<a href="#" title="gastro4"><span><img src="data1/tooltips/gastro4.jpg" alt="gastro4"/>8</span></a>
+		<a href="#" title="gastro5"><span><img src="data1/tooltips/gastro5.jpg" alt="gastro5"/>9</span></a>
+		<a href="#" title="gastro6"><span><img src="data1/tooltips/gastro6.jpg" alt="gastro6"/>10</span></a>
+		<a href="#" title="gastro7"><span><img src="data1/tooltips/gastro7.jpg" alt="gastro7"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%">
+    <a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+       </div>
+           <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+            <div> 
+                <img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            <div>
+               <h4> Brenda Angela Vazquez Ferrer </h4>
+            </div>
+           </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Gastronomía</h1>
+             </div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h>Información sobre la Gastronomía(ITSA)</h1>
+    </a>
+   </li>
+   </ul>  
+           
+             <div data-role="content" align="center">
+               <div>
+                  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>Lo que nos ofrece (ITSA) en la Gastronomía</h1>
+          <div>
+          <h2>Se muestra Algunas imagenes</h2>
+          </div>
+          <div><img src="res/android/gastro1.jpg" width="695" height="260"></div>
+          </div>
+         </div>  
+         <H1>¿Que es la gastronomía?</H1>
+              <h3>La gastronomía es el estudio del vínculo que existe entre los individuos, la comida y el medio ambiente. Por lo que la gastronomía no implica solamente un cúmulo de técnicas de cocción, sino el nexo que las personas sostienen con el medio que los rodea, del cual reciben sus recursos alimenticios, en la forma en que los utilizan y todos aquellos aspectos culturales y sociales que guardan relación con la degustación de las preparaciones culinarias.</h3>
+         <p> <img src="res/android/gastro3.png" width="332" height="167"></p>
+<h1>POR QUE ES IMPORTANTE LA GASTRONOMIA</h1>
+<p>a importancia de la gastronomía radica en cada una de las regiones en donde se genere, permitiendo conocer la cultura de cada pueblo a los que le corresponde, ya que además de brindarnos sabores deliciosos y únicos, la gastronomía nos habla directamente de las costumbres y formas de vida de los habitantes de una región, hablándonos de la antigüedad de cada pueblo, de la utilización de los recursos de la localidad y de los adelantos que han ocurrido a lo largo de los años. Desde el punto de vista de la salud, la importancia de la gastronomía reside en tradiciones culinarias específicas, asociadas al incremento de ciertas enfermedades, inclusive favorables para la disminución de otras. Por ejemplo hay regiones en donde las personas tienen una esperanza de vida alta, y esto en muchos casos se debe a la alimentación que reciben.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','res/android/gastro9.jpg',1)"><img src="res/android/gastro8.jpg" width="398" height="146" id="Image16"></a> </div>
+
+<table width="90%" border="0" cellspacing="30">
+  <tr>
+    <th scope="col"><img src="res/android/gastro10.jpg" width="276" height="183"></th>
+    <th scope="col"><img src="res/android/gastro7.jpg" width="310" height="162"></th>
+    <th scope="col"><img src="res/android/gastro5.jpg" width="283" height="178"></th>
+    <th scope="col"><img src="res/android/gastro12.jpg" width="276" height="183"></th>
+     
+</table>
+   </div> 
+              
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+   </div>
+ </div>
+            
+              
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Administracion de Empresas</h1>
+             </div>
+
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h1>Lo que nos ofrece (BUAP) en Administracion</h1>
+    </a>
+   </li>
+   </ul>       
+    
+   <div data-role="content" align="center">
+               <div>
+                 <p></p>
+               <h4>&nbsp;</h4>
+                 
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1> Administración de Empresas </h1>
+          <div>
+            <p>Se muestra Algunas Imagenes:</p>
+            <br>
+          </div>
+          <div>
+          <img src="res/android/adm5.JPG" width="52%" height="19%">
+          </div>
+          </div>
+          <H1>¿Que es la Administración de Empresas?</H1>
+              <p>La administración de empresas es una actividad destinada a organizar los recursos empresariales, humanos y materiales, en vistas a la consecución de sus objetivos. Para ello se elabora un plan estratégico en miras a la misión o fin a largo plazo que la organización se propone. Para planificar se deben tomar en cuenta las fortalezas y debilidades del emprendimiento, y su relación con otras empresas, en cuanto a su posicionamiento relativo, para lo que se requiere una investigación del mercado del que se trate.</p>
+         <p> <img src="res/android/adm1.jpg" width="410" height="149"></p>
+<h1>POR QUE ES IMPORTANTE LA ADMINISTRACION</h1>
+<p> En el mundo actual, esto está conformado por las Empresas y Compañías, que tienen una organización en particular que permite definir distintas Áreas de Trabajo en las que se dividen las tareas de acuerdo a Especializaciones, teniendo los distintos empleados un rol en particular dependiendo no solo de su Formación Profesional, sino también de su eficiencia para lo cual han sido contratados.
+
+Una de estas áreas está justamente ligada a la Administración de Empresas, siendo básicamente la organización de los recursos disponibles en pos de lograr el Mayor Rendimiento posible ante el planteo de un Objetivo Particular como también de actuar como una especie de Organismo de Control hacia todos los sectores o áreas que estén funcionando dentro de una compañía.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','res/android/adm9.jpg',1)"><img src="res/android/adm8.jpg" width="475" height="226" id="Image17"></a> </div> 
+
+<table width="90%" border="0" cellspacing="30">
+  <tr>
+    <th scope="col"><img src="res/android/adm10.jpg" width="276" height="183"></th>
+    <th scope="col"><img src="res/android/adm11.jpg" width="310" height="162"></th>
+    <th scope="col"><img src="res/android/adm13.jpg" width="283" height="178"></th>
+    <th scope="col"><img src="res/android/adm14.jpg" width="276" height="183"></th>
+     
+</table> 
+
+     </div>
+   </div> 
+   
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+   </div>
+ </div>
+                          
+              
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Bioquimica</h1>
+   </div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h1>Lo que nos ofrece (ITSA) en Bioquimica</h1>
+    </a>
+   </li>
+   </ul> 
+             <div data-role="content" align="center">
+               <div>
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1> Ingeniería Bioquimica:  </h1>
+          <div>
+            <p> Se muestra una imagen : </p>
+            <br>
+          </div>
+          <div>
+            <img src="res/android/bio9.png"width="52%" height="22%">
+          </div>
+          </div>
+         </div>
+<h1>¿Que es la Ingeniería Bioquimica?</h1>
+<p> La carrera de Ingeniero Bioquímico es el de formar profesionales capaces de ejecutar, supervisar y dirigir las actividades propias para resolver problemas relacionados con las áreas de alimentos, las fermentaciones y los productos biológicos, además será capaz de diseñar productos y tecnologías en las mismas áreas.</p>
+
+<div>
+  <img src="res/android/bio8.jpg" width="480" height="255" alt="bioquimica"> </div>
+  <table width="90%" border="0" cellspacing="30">
+  <tr>
+    <th scope="col"><img src="res/android/bio14.jpg" width="276" height="183"></th>
+    <th scope="col"><img src="res/android/bio15.jpg" width="310" height="162"></th>
+    <th scope="col"><img src="res/android/bio16.jpg"width="283" height="178"></th>
+    <th scope="col"><img src="res/android/bio17.jpg" width="276" height="183"></th>
+     
+</table>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">    </div>
+</div>
+
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra mas información sobre la Bioquimica</p>
+            <br>
+          </div>
+          <div>
+            <a href=" https://www.itsa.edu.mx/ingenieria-bioquimica/" target="_self">Informacion</a>
+          </div>
+        </div>
+         </div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','res/android/bio12.jpg',1)"><img src="res/android/bio13.jpg" width="437" height="167" id="Image18"></a>
+<h1>TECNOLÓGICO DE ESTUDIOS SUPERIORES DE ECATEPEC.</h1>
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>  </h1>
+          <div>
+            <p> Se muestra información sobre los niveles de estudio que nos ofrece TECNOLÓGICO DE ESTUDIOS SUPERIORES DE ECATEPEC </p>
+            <br>
+          </div>
+          <div>
+             <a href="http://www.tese.edu.mx/documentos2004/2106_ZSLFYPN.pdf" target="_self">Informacion Tecnologico (ECATEPEC)</a>
+            
+          </div>
+        </div>
+         </div>  
+     </div>
+   </div> 
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+   </div>
+ </div>
+                          
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>PARA MAS INFORMACION(link)</h1>
+</div>
+
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">    <li class="ui-first-child ui-last-child">
+    <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h1>¿Que es una Licenciatura e Ingeniería</h1>
+    </a>
+   </li>
+   </ul>
+   
+<div data-role="content" align="center">
+<div>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.itsatlixco.edu.mx/tec/admisiones.php" data-role="button" id="beep">
+<font size="3" face="castellan"> (ITSA Gastronomia)</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://www.administracion.buap.mx" data-role="button" id="beep">
+<font size="3" face="castellan">(BUAP Administración)</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://www.itsatlixco.edu.mx/tec/servicio_social.php" data-role="button" id="beep">
+<font size="3" face="castellan">(ITSA Bioquimica)</font>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','res/android/bio12.jpg',1)"><img src="res/android/gastro7.jpg" width="300" height="300" id="Image63"></a></center>
+<div>
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>Desarrollado por:</h1></center>
+          <div>
+          <center><h2>Nombre:<br> Brenda Angela Vazquez Ferrer <br>Grupo: <br>G <br>Semestre: <br>4 <br>Submodulo:<br>Diseña Aplicaciones Moviles <br>Nombre del Docente: <br>Jose Antonio Gomez Hernandez </h2></center>
+          </div>
+          <center><div><img src="res/android/dgti.png" width="200" height="200"></div></center>
+          </div>
+         </div>  
+       
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Brenda angela Vazquez Ferrer</h4>
+ </div>
+ </div> 
+
+            
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4> Brenda Angela Vazquez Ferrer </h4>
+            </div>
+             </div>
+             
+ <div data-role="page" id="page5" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Gastronomía</h1>
+</div>
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1> </h1>
+          <div>
+            <p></p>
+            <br>
+          </div>
+          <div>
+          <center><img src="res/android/gastro6.jpg" width="27%" height="20%"></center>
+          </div>
+    </div>
+  </div>
+          
+<div data-role="content" align="center">
+<h1>En el instituto Tecnologico (ITSA) Atlixo nos ofrece la Carrera de Gastronomia</h1> <p> <br>A continuacion nos dara informacion para como poder entrar al instituto</p>
+<h1>Admision 2017<br> Licenciatura en Gastronomia</h1>
+<h2>Entrega de Fechas de Admision <br> REQUISITOS</h2>
+<p>Presentar en copia y original los siguientes documentos: <br> 1.-Acta de Nacimiento<br>2.-CURP<br>3.-INE<br>4.-Certificado de Bachillerato<br>5.-Orden de Cobro Comprobante de pago Bancario y Comprobante fiscal</p>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/place/Instituto+Tecnol%C3%B3gico+Superior+de+Atlixco/@18.9215119,-98.4225008,3a,75y,63h,90t/data=!3m7!1e1!3m5!1sqt59DjvseSilvAFP4JmKEA!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3Dqt59DjvseSilvAFP4JmKEA%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D234%26h%3D106%26yaw%3D63.357815%26pitch%3D-1.4020303%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x0:0xc38311539a17824b!8m2!3d18.9214702!4d-98.4221578!6m1!1e1" data-role="button" id="beep">
+<font size="3" face="castellan"> Instituto Tecnologico Superior de atlixco</font>
+</a>
+</li>
+</ul>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','res/android/gastro5.jpg',1)"><img src="res/android/gastro4.jpg" width="503" height="537" id="Image11"></a> </div>
+<center><a href="https://www.facebook.com/analilia.gastronomia.5/photos_all" target="_self">Fotos de Gatronomia ITSA</a></center>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Brenda angela Vazquez Ferrer</h4>
+  </div>
+ </div>
+
+ 
+<div data-role="page" id="page6" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Licenciatura en Administracion de Empresas</h1>
+</div>
+<div data-role="content" align="center">
+<img src="res/android/adm4.jpg" width="384" height="288" alt="buap">
+<h1>Modalidades en las que se Ofrece:</h1>
+<p>1.-Presencial<br> 2.-Modalidad a Distancia (MaD)<br>3.-Modalidad Semiescolarizada (MSE)</p>
+<h1>Perfil de Ingreso</h1>
+<p>El aspirante al ingresar a la Licenciatura en Administración de Empresas deberá contar con los siguientes atributos en conocimientos, habilidades, actitudes y valores:
+Conocimientos: Básicos de matemáticas, contabilidad y finanzas, aspectos generales de los medios de información y comunicación, conceptos de cultura, identidad colectiva, globalización, competitividad, organización y conocimiento del contexto regional, nacional e internacional.
+Habilidades: Desarrollo de su inteligencia emocional, capacidad para el manejo pacífico de conflictos, utilización de los medios de información,  para la negociación interpersonal y el trabajo en equipo, para establecer y mantener relaciones interpersonales con todos los niveles  de la organización y personas externas a ella que faciliten el logro de objetivos organizacionales, para tomar decisiones, resolver problemáticas, dar respuestas críticas y creativas de manera multi, inter y transdisciplinariamente a las diversas experiencias y actividades personales, sociales o profesionales en el contexto local, regional, nacional e internacional, entre otras.
+Actitudes y Valores: Capacidad de asombro ante la realidad interna y externa, apertura a las incertidumbres en el conocimiento, búsqueda permanente de su autoconocimiento, empatía, apertura al diálogo, comprensión y tolerancia hacia la diversidad cultural, entre otras.</p>
+
+<h1>Perfil de Egreso</h1>
+<p>El egresado de la Licenciatura  en Administración de Empresas tendrá las siguientes competencias en conocimientos, habilidades, actitudes y valores orientados en la formación disciplinaria en la que se desarrolla.
+Conocimientos: Sobre los fundamentos de las teorías administrativas, así como las diferentes disciplinas económico-administrativas, de la interrelación de las principales funciones de una empresa, para definir y establecer objetivos de diferentes niveles y funciones organizacionales, así como diseñar y aplicar estrategias, tácticas, políticas y otros tipos de planes para alcanzarlos, para analizar críticamente las nuevas propuestas teóricas y técnicas que surjan en el campo de su profesión a fin de aprovecharlas o rechazarlas o, de ser posible, innovarlas, entre otros.
+Habilidades: Para diseñar y establecer estructuras y procedimientos administrativos que faciliten el logro de los objetivos de la organización en sus diferentes niveles jerárquicos y funciones y que respondan a los cambios que sean necesarios en ella para el efecto; para formular y evaluar cursos alternativos de acción y tomar decisiones sustentadas en ello, aplicando, cuando sea pertinente, métodos y técnicas de investigación, para dirigir a otros hacia el logro de objetivos organizacionales mediante la delegación, la comunicación, la motivación, la orientación, la supervisión, la preservación de la disciplina,  la solución de conflictos interpersonales y la administración del cambio, entre otros.
+Actitudes y Valores: Para realizar todas las acciones antes enunciadas de manera ética, creativa e innovadora, aprovechando óptimamente los recursos humanos, financieros, materiales y técnicos, apegándose al marco jurídico correspondiente y tomando en consideración el entorno social, económico, político, cultural y ecológico de la organización.</p>
+<h1>Campo de Trabajo</h1>
+<p>El egresado de la Licenciatura en Administración de Empresas será capaz de operar una micro, pequeña o mediana empresa y gran empresa, en los sectores de servicios, comercio,  la transformación, la construcción; así también tendrá los conocimientos para generar una nueva empresa; o trabajar de manera independiente.</p>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/administracion_de_empresas_1" data-role="button" id="beep">
+<font size="3" face="castellan"> BUAP Administracion de Empresas</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/place/Benem%C3%A9rita+Universidad+Aut%C3%B3noma+de+Puebla/@19.020638,-98.2150089,8346m/data=!3m1!1e3!4m8!1m2!2m1!1sadministracion+de+empresas+buap+ubicacion!3m4!1s0x85cfbf6694969347:0x94b7bdad22f8545a!8m2!3d19.0424036!4d-98.1956479" data-role="button" id="beep">
+<font size="3" face="castellan">Ubicacion (BUAP)</font>
+</a>
+</li>
+</ul>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','res/android/adm7.jpg',1)"><img src="res/android/adm6.jpg" width="407" height="230" id="Image13"> </a> 
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Brenda angela Vazquez Ferrer</h4>
+  </div>
+ </div>
+
+
+ <div data-role="page" id="page7" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Bioquimica (ITSA)</h1>
+</div>
+<div data-role="content" align="center">
+<img src="res/android/bio10.jpg" width="474" height="202" alt="itsa">
+<h1>CONVOCATORIA</h1>
+<h3>Pláticas de inducción al Servicio Social y Residencia Profesional para el periodo Agosto - Diciembre 2017.</h3>
+Asistencia de manera OBLIGATORIA de lo contrario no se les firmará la precarga.</p>
+<h1>Algunos de los requisitos para servicio social son:</h1>
+<p>* Cubrir el 70% de créditos. <br>* Estar inscrito en 7mo semestre.<br>* La duración del servicio social es de 480 hrs con una duración de 6 meses.<br>* El servicio social se cursará por única ocasión.<br>* Contar con seguro facultativo.<br>* Firma de carta compromiso.
+Algunos de los requisitos para Residencia Profesional son:<br>* Haber acreditado el Servicio Social<br>* Estar inscrito.<br>* La duración de R. P. es de 500 hrs con una duración de 4 meses.<br>* Se cursará por única ocasión.<br>* Contar con seguro facultativo.<br>* Firma de carta compromiso.</p>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.google.com.mx/maps/place/Instituto+Tecnol%C3%B3gico+Superior+de+Atlixco/@18.9214753,-98.4243465,1044m/data=!3m1!1e3!4m5!3m4!1s0x85cfb46bba185d09:0xc38311539a17824b!8m2!3d18.9214702!4d-98.4221578" data-role="button" id="beep">
+<font size="3" face="castellan">(ITSA ATLIXCO)</font>
+</a>
+</li>
+</ul>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','res/android/bio2 .jpg',1)"><img src="res/android/bio1.jpg" width="417" height="533" id="Image14"></a>
+</div>
+<div>
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1></h1></center>
+          <div>
+          <center><h2> Se muestra una Imagen </h2></center>
+          </div>
+          <center><div><img src="res/android/bio14.jpg" width="220" height="219"></div></center>
+          </div>
+         </div>  
+       </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Brenda angela Vazquez Ferrer</h4>
+ </div>
+ </div> 
+
+ <div data-role="page" id="page8" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<center><h1>Que es una Licenciatura e Ingenieria</h1><center>
+</div>
+<center><h1>¿Que es una Licenciatura?</h1>
+<p>Licenciatura es el título que se obtiene tras realizar ciertos estudios de educación superior entre 4 y 6 años de duración. Por otro lado, cuando se obtiene esta titulación, quiere decir que se es una persona capacitada para cumplir con una serie de tareas en un ámbito determinado.</p>
+<img src="res/android/lic1.jpg" width="558" height="372" alt="lic">
+<h1>Algunas Carreras en Licencitura</h1>
+<p>licenciatura en administración <br> informática <br> psicología <br> medicina <br> derecho <br> enfermería <br> ingeniería <br> diseño gráfico <br> educación física <br>informática <br> telecomunicaciones <br> química<br> industrial etc.</p></center>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<a href="http://conceptodefinicion.de/licenciatura/" data-role="button" id="beep">
+<font size="3" face="castellan"> Licenciatura</font>
+
+</a>
+</li>
+</ul>
+
+<h1>¿Que es una Ingeniería?</h1>
+ <p>La ingeniería es una profesión en la que los conocimientos científicos y empíricos se aplican para la conversión óptima de los materiales y fuerzas de la naturaleza en usos prácticos para la humanidad, así como, la invención, perfeccionamiento y utilización de la técnica industrial, y a la resolución de problemas técnicos-sociales.
+
+Esta disciplina también es considera como un arte, debido a que la capacidad imaginativa y de creación del ser humano sobresale para concebir cosas que aún no existen, y es por medio de la aplicación de sus conocimientos científicos que transforma esas ideas en acción o en una realidad.</p>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://conceptodefinicion.de/ingeneria/" data-role="button" id="beep">
+<font size="3" face="castellan"> Ingeniería</font>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+
+   <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+             
+   
+</body>
+</html>
